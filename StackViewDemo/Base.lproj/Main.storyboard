@@ -40,15 +40,14 @@
                                 <color key="backgroundColor" red="1" green="0.17509007720898462" blue="0.24808872068486987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.48599755014041879" green="1" blue="0.76493519269028143" alpha="0.85249779929577463" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="5" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7G-88-o39">
-                                <rect key="frame" x="27" y="386" width="325" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7G-88-o39">
+                                <rect key="frame" x="105" y="378" width="165" height="45"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="7fc-AQ-zY6">
-                                        <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="7fc-AQ-zY6">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="45"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-uH-alX">
-                                        <rect key="frame" x="165" y="0.0" width="160" height="90"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="FDw-uH-alX">
+                                        <rect key="frame" x="85" y="0.0" width="80" height="45"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -56,7 +55,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EDx-nE-V0T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1hB-x5-cfN"/>
+                            <constraint firstItem="y7G-88-o39" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="67" id="6nm-pS-wWk"/>
                             <constraint firstItem="EDx-nE-V0T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cAj-0n-udn"/>
+                            <constraint firstItem="y7G-88-o39" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ke8-Rk-5xD"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -66,6 +67,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="imagem" width="160" height="90"/>
+        <image name="imagem" width="80" height="45"/>
     </resources>
 </document>
